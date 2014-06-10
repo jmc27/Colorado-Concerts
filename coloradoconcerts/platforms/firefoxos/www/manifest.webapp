@@ -1,0 +1,14 @@
+{
+    "launch_path": "/index.html",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "version": "0.0.1",
+    "name": "Colorado-Concerts",
+    "pkgName": "io.cordova.hellocordova",
+    "description": "Colorado Concerts Mobile Application",
+    "developer": {
+        "name": "Jonathan Chu"
+    },
+    "icons": {}
+}
