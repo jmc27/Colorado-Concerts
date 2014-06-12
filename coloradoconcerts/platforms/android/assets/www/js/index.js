@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,3 +48,14 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+
+//app.js
+app.get('/login', function(req, res) {
+  res.sendfile('www/index.html');
+});
+
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
+
+

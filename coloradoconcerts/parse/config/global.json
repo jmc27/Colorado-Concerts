@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Colorado-Concerts": {
+            "applicationId": "5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", 
+            "masterKey": "HLZkGYuuz1k83Oyec1fc9xpFljBUuuY0JqkeHv6Y"
+        }, 
+        "_default": {
+            "link": "Colorado-Concerts"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.18"
+    }
+}

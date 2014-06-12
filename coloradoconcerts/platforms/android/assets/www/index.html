@@ -26,6 +26,8 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+        <script src="parse.min.js"></script>
+        <script src="main.js"></script>
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Colorado-Concerts</title>
@@ -37,15 +39,29 @@
                 <h1>User Authentication</h1>
             </div>
             <div data-role="content"> 
-                <form id="form" >
-                    <label> user </label>
-                    <input type="text" id="username" name="username">
-                    <label> Password </label>
-                    <input type="password" id="passwrd" name="passwrd" >
-                  
-                    <input type="submit" value="Login" id="loginbutton">
-                </form>   
-  
+                <div type="text/template" id="login-template">
+                      <header id="header"></header>
+                      <div class="login">
+                        <form class="login-form">
+                          <h2>Log In</h2>
+                          <div class="error" style="display:none"></div>
+                          <input type="text" id="login-username" placeholder="Username" />
+                          <input type="password" id="login-password" placeholder="Password" />
+                          <button>Log In</button>
+                        </form>
+
+                        <form class="signup-form">
+                          <h2>Sign Up</h2>
+                          <div class="error" style="display:none"></div>
+                          <input type="text" id="signup-email" placeholder="Email" />
+                          <input type="text" id="signup-username" placeholder="Username" />
+                          <input type="password" id="signup-password" placeholder="Create a Password" />
+                          <input type="submit" id="signup" value="Sign Up">
+                        </form>
+                      </div>
+                </div>
+   
+  <!--
                 <h1>Welcome</h1> 
                 <h2> Welcome to the application </h2>
                 <h3> Its user and password validation</h3>
@@ -56,9 +72,30 @@
                         <p class="event received">Device is Ready</p>
                     </div>
                 </div>
+    -->
+                <h2>Note Application</h2>
+
+                <div id="notes"></div>
+
+                <form id="addNote">
+
+                <p>
+                <input type="text" id="noteTitle" placeHolder="Note Title">
+                </p>
+
+                <p>
+                <textarea id="noteBody" placeHolder="Enter note text here."></textarea>
+                </p>
+
+                <p>
+                <input type="submit" id="addNoteBtn" value="Add Note">
+                </p>
+
+                </form>
             </div>
                   
         </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
