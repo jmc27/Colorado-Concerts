@@ -53,9 +53,19 @@
             app.initialize();
         </script>
         <script type="text/javascript">
-            var TestObject = Parse.Object.extend("TestObject");
-            var testObject = new TestObject();
-              testObject.save({foo: "bar"}, {
+            var Event = Parse.Object.extend("Event", {}, {
+                create: function(title, address, category, date){
+                    var event = new Event();
+                    event.set("title", title);
+                    event.set("address", address);
+                    event.set("category", category);
+                    event.set("date", date);
+                    return event;
+                }
+            });
+
+            var event = Event.create("Bonaroo", "Tenesee", "PLM", new Date(2014, 2, 13, 12, 30));
+              event.save(null, {
               success: function(object) {
                 $(".success").show();
               },
@@ -66,9 +76,9 @@
           </script>
           <script type = "text/javascript">
             function signUp() {
-                var username = $("#signup-username").val(),
-                password = $("#signup-password").val(),
-                email = $("#signup-email").val();
+                var username = $('#signup-username').val(),
+                password = $('#signup-password').val(),
+                email = $('#signup-email').val();
                 Parse.User.signUp(username, password, email, {}, {
                     success: function (user) {
                         alert("Yay!");
