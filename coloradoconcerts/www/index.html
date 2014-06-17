@@ -13,6 +13,7 @@
         <script type = "text/javascript">
             Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
         </script>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBUYexltA78O_jjQUKY-VNbFRZBoGEv7EU&sensor=false"></script>
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Colorado-Concerts</title>
@@ -31,18 +32,12 @@
                         <button onclick="signUp()">Sign Up</button>
                     </form>
                 </div>
-                <div style="display:none" class="error">
-                  Looks like there was a problem saving the test object. Make sure you've set your application ID and javascript key correctly in the call to <code>Parse.initialize</code> in this file.
+                <a href = "menu.html"><button>Menu</button></a>
+                <div id = "error" class="error">
+                  
                 </div>
 
-                <div style="display:none" class="success">
-                  <p>We've also just created your first object using the following code:</p>
-                  
-                    <code>
-                      var TestObject = Parse.Object.extend("TestObject");<br/>
-                      var testObject = new TestObject();<br/>
-                      testObject.save({foo: "bar"});
-                    </code>
+                <div id = "success" class="success">
                 </div>
             </div>
         </div>
@@ -67,27 +62,31 @@
             var event = Event.create("Bonaroo", "Tenesee", "PLM", new Date(2014, 2, 13, 12, 30));
               event.save(null, {
               success: function(object) {
-                $(".success").show();
+                $(".success").html("Event successfully saved");
               },
               error: function(model, error) {
-                $(".error").show();
+                $(".error").html("Error saving event.");
               }
             });
           </script>
           <script type = "text/javascript">
-            function signUp() {
-                var username = $('#signup-username').val(),
-                password = $('#signup-password').val(),
-                email = $('#signup-email').val();
-                Parse.User.signUp(username, password, email, {}, {
-                    success: function (user) {
-                        alert("Yay!");
-                    },
-                    error: function (user, error) {
-                        alert("Error: " + error.code + " " + error.message);
-                    }
+           var user = new Parse.User();
+                user.set("username", "JMC");
+                user.set("password", "jonathan39");
+                user.set("email", "jmcplease@gmail.com");
+                 
+                // other fields can be set just like with Parse.Object
+                user.set("phone", "6465963855");
+                 
+                user.signUp(null, {
+                  success: function(user) {
+                    // Hooray! Let them use the app now.
+                  },
+                  error: function(user, error) {
+                    // Show the error message somewhere and let the user try again.
+                    alert("Error: " + error.code + " " + error.message);
+                  }
                 });
-            }
           </script>
     </body>
 </html>

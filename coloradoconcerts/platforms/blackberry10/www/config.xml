@@ -9,4 +9,11 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="Geolocation" value="Geolocation" />
+    <rim:permissions>
+        <rim:permit>read_geolocation</rim:permit>
+        <rim:permit>access_shared</rim:permit>
+    </rim:permissions>
+    <feature name="Accelerometer" value="Accelerometer" />
+    <feature name="Camera" value="Camera" />
 </widget>
