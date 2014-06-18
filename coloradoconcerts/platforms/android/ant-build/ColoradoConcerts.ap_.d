@@ -38,6 +38,7 @@
 /Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/js \
 /Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/menu.html \
 /Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins \
+/Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/css/app.css \
 /Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/css/index.css \
 /Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/img/logo.png \
 /Users/jchu/Desktop/ColoradoConcerts/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/js/index.js \

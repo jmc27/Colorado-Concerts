@@ -1,12 +1,12 @@
-function signUp() {
+function signUp(username, email, password) {
 	var user = new Parse.User();
-	    user.set("username", document.getElementById("signupusername").innerHTML);
-	    user.set("password", document.getElementById("signuppassword").innerHTML);
-	    user.set("email", document.getElementById("signupemail").innerHTML);
-	     
+	    user.set("username", username);
+
+	    user.set("password", password);
+	    user.set("email", email);
+	    
 	    // other fields can be set just like with Parse.Object
-	    //user.set("phone", "6465963855");
-	     
+	    //user.set("phone", "6465963855"); 
 	    user.signUp(null, {
 	      success: function(user) {
 	        // Hooray! Let them use the app now.
@@ -14,7 +14,11 @@ function signUp() {
 	      },
 	      error: function(user, error) {
 	        // Show the error message somewhere and let the user try again.
-	        alert("Error: " + error.code + " " + error.message);
+	        alert("Error: " + error.code + " " + error.message + " " + user.username);
 	      }
 	    });
+}
+
+function logIn(email, password) {
+	
 }

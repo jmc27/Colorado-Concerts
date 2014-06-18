@@ -6,8 +6,7 @@ function signUp(username, email, password) {
 	    user.set("email", email);
 	    
 	    // other fields can be set just like with Parse.Object
-	    //user.set("phone", "6465963855");
-	    alert("user: " + user.username + " " + user.email + " " + user.password) 
+	    //user.set("phone", "6465963855"); 
 	    user.signUp(null, {
 	      success: function(user) {
 	        // Hooray! Let them use the app now.
@@ -18,4 +17,8 @@ function signUp(username, email, password) {
 	        alert("Error: " + error.code + " " + error.message + " " + user.username);
 	      }
 	    });
+}
+
+function logIn(email, password) {
+	
 }
