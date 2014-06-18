@@ -14,6 +14,7 @@
             Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
         </script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBUYexltA78O_jjQUKY-VNbFRZBoGEv7EU&sensor=false"></script>
+        <script type="text/javascript" src="js/user.js"></script>
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Colorado-Concerts</title>
@@ -26,10 +27,10 @@
             <div data-role = "content">
                 <div id = "signup">
                     <form>
-                        <input type="text" id="signup-email" placeholder="Email" />
-                        <input type="text" id="signup-username" placeholder="Username" />
-                        <input type="password" id="signup-password" placeholder="Create a Password" />
-                        <button onclick="signUp()">Sign Up</button>
+                        <input type="email" id="signupemail" placeholder="Email" />
+                        <input type="text" id="signupusername" placeholder="Username" />
+                        <input type="password" id="signuppassword" placeholder="Create a Password" />
+                        <button onclick="signUp(document.getElementById('signupusername').value, document.getElementById('signupemail').value, document.getElementById('signuppassword').value);">Sign Up</button>
                     </form>
                 </div>
                 <a href = "menu.html"><button>Menu</button></a>
@@ -44,9 +45,7 @@
 
 
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+
         <script type="text/javascript">
             var Event = Parse.Object.extend("Event", {}, {
                 create: function(title, address, category, date){
@@ -68,25 +67,6 @@
                 $(".error").html("Error saving event.");
               }
             });
-          </script>
-          <script type = "text/javascript">
-           var user = new Parse.User();
-                user.set("username", "JMC");
-                user.set("password", "jonathan39");
-                user.set("email", "jmcplease@gmail.com");
-                 
-                // other fields can be set just like with Parse.Object
-                user.set("phone", "6465963855");
-                 
-                user.signUp(null, {
-                  success: function(user) {
-                    // Hooray! Let them use the app now.
-                  },
-                  error: function(user, error) {
-                    // Show the error message somewhere and let the user try again.
-                    alert("Error: " + error.code + " " + error.message);
-                  }
-                });
           </script>
     </body>
 </html>
