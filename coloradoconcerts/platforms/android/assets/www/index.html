@@ -13,7 +13,6 @@
         <script type = "text/javascript">
             Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
         </script>
-        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBUYexltA78O_jjQUKY-VNbFRZBoGEv7EU&sensor=false"></script>
         <script type="text/javascript" src="js/user.js"></script>
         <link rel="stylesheet" type="text/css" href="css/app.css" />
         <meta name="msapplication-tap-highlight" content="no" />
@@ -22,23 +21,25 @@
     <body>
         <div data-role = "page">
             <div data-role = "header">
-                <h1>User Authentication</h1>
+                <h1>Colorado-Concerts</h1>
             </div>
             <div data-role = "content">
-                <div id = "signup">
+                <div id = "signup" style = "display:none">
                     <form>
                         <input type="email" class = "logininput" id="signupemail" placeholder="Email" />
                         <input type="text" class = "logininput" id="signupusername" placeholder="Username" />
                         <input type="password" class = "logininput" id="signuppassword" placeholder="Create a Password" />
+                        <a href="#" onclick="return show('login', 'signup');">Log In</a>
                         <button onclick="signUp(document.getElementById('signupusername').value, document.getElementById('signupemail').value, document.getElementById('signuppassword').value);">Sign Up</button>
                     </form>
                 </div>
-                <a href = "menu.html"><button>Menu</button></a>
-                <div id = "error" class="error">
-                  
-                </div>
-
-                <div id = "success" class="success">
+                <div id = "login">
+                    <form>
+                        <input type="email" class = "logininput" id="loginemail" placeholder="Email" />
+                        <input type="password" class = "logininput" id="loginpassword" placeholder="Create a Password" />
+                        <a href="#" onclick="return show('signup','login');">Sign Up</a>
+                        <button onclick="logIn(document.getElementById('loginusername').value, document.getElementById('loginpassword').value);">Log In</button>
+                    </form>
                 </div>
             </div>
         </div>

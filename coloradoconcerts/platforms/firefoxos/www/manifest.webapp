@@ -10,5 +10,10 @@
     "developer": {
         "name": "Jonathan Chu"
     },
+    "permissions": {
+        "geolocation": {
+            "description": "Required for accessing user location."
+        }
+    },
     "icons": {}
 }
