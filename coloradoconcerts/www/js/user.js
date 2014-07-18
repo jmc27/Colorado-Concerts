@@ -22,7 +22,7 @@ function signUp(username, email, password) {
 function logIn(email, password {
 	success: function(user) {
 		window.location.href = "menu.html"
-	}
+	},
 	error: function(user, error) {
 
 	}
