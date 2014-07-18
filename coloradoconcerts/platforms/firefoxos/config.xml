@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <permission description="Required for accessing user location." name="geolocation" />
+    <feature name="Accelerometer">
+        <param name="firefoxos-package" value="Accelerometer" />
+    </feature>
+    <feature name="Camera">
+        <param name="firefoxos-package" value="Camera" />
+    </feature>
     <name>Colorado-Concerts</name>
     <description>
         Colorado Concerts Mobile Application
