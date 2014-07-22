@@ -23,4 +23,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="GoogleMaps">
+        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+    </feature>
 </widget>
