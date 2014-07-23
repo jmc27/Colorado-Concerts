@@ -14,6 +14,9 @@
     <feature name="Globalization">
         <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
     </feature>
+    <feature name="GoogleMaps">
+        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+    </feature>
     <name>Colorado-Concerts</name>
     <description>
         Colorado Concerts Mobile Application
@@ -23,7 +26,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="GoogleMaps">
-        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
-    </feature>
 </widget>

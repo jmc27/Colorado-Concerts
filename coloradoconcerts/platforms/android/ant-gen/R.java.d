@@ -13,6 +13,7 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/drawable-port-xhdpi/screen.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/drawable-xhdpi/icon.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/values/strings.xml \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/values/version.xml \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/xml/config.xml \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/ant-build/res/drawable/icon.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/ant-build/res/drawable-hdpi/icon.png \

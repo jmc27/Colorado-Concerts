@@ -13,11 +13,26 @@
         <script type = "text/javascript">
             Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
         </script>
+        <script type="text/javascript">
+            var map;
+            document.addEventListener("deviceready", function() {
+              var button = document.getElementById("button");
+              button.addEventListener("click", onBtnClicked, false);
+
+              var div = document.getElementById("map_canvas");
+              map = plugin.google.maps.Map.getMap(div);
+            }, false);
+            function onBtnClicked() {
+              map.showDialog();
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Colorado-Concerts Event Locator</title>
     </head>
     <body>
-    
+        <h3>PhoneGap-GoogleMaps-Plugin</h3>
+        <div style="width:100%;height:400px" id="map_canvas"></div>
+        <button id="button">Full Screen</button>
     </body>
 </html>
