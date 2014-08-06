@@ -99,7 +99,7 @@ module.exports.metadata =
     "org.apache.cordova.device-motion": "0.2.9-dev",
     "org.apache.cordova.camera": "0.3.1-dev",
     "org.apache.cordova.globalization": "0.2.9-dev",
-    "plugin.google.maps": "1.1.3",
+    "plugin.google.maps": "1.1.4",
     "com.googlemaps.ios": "1.8.1"
 }
 // BOTTOM OF METADATA

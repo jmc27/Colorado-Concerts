@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
@@ -24,11 +24,15 @@
                 <h1>Create Event</h1>
             </div>
             <div data-role = "content">
-                <input type = "text" class = "eventinput" id = "eventtitle" placeholder = "Title"/>
-                <input type = "text" class = "eventinput" id = "eventlocation" placeholder = "Address"/>
-                <input type = "text" class = "eventinput" id = "eventdate" placeholder = "Date: ex. October 13, 2014, 11:13:00"/>
-                <input type = "text" class "eventinput" id = "eventcategory" placeholder = "Category"/>
-                <button onclick = "makeEvent(document.getElementById('eventtitle').value, document.getElementById('eventlocation').value, document.getElementById('eventdate').value, document.getElementById('eventcategory').value);">Make Event</button>
+                <div id = "inputevent">
+                    <input type = "text" class = "eventinput" id = "eventtitle" placeholder = "Title"/>
+                    <input type = "text" class = "eventinput" id = "eventlocation" placeholder = "Address"/>
+                    <input type = "text" class = "eventinput" id = "eventdate" placeholder = "Date: ex. October 13, 2014, 11:13:00"/>
+                    <input type = "text" class "eventinput" id = "eventcategory" placeholder = "Category"/>
+                    <button onclick = "makeEvent(document.getElementById('eventtitle').value, document.getElementById('eventlocation').value, document.getElementById('eventdate').value, document.getElementById('eventcategory').value);">Make Event</button>
+                </div>
+                <div id = "eventlist">
+                </div>
             </div>
         </div>
 

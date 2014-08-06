@@ -8,18 +8,21 @@ This plugin works with [Apache Cordova](http://cordova.apache.org/).
 
 
 ###Example
-You can try the example of this plugin. [phonegap-googlemaps-plugin-v1.1.3.apk](http://goo.gl/xrz3Hj)
+You can try the example of this plugin. [phonegap-googlemaps-plugin-v1.1.4.apk](http://goo.gl/uq7viR)
 
 ![image](https://googledrive.com/host/0B1ECfqTCcLE8ZVQ1djlWNThISEE/example-v1.0.7.gif)
 
-###Don't miss updates!
-The plugin will updates in very short terms.
-In order to watch this project, make a Github account(free), then push the [watch] button at the top-right of the github pages.
-
-And check the [Release Notes](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Release-Notes)
-
+###Join the community
+If you have any questions or feature requests, please post the community.
+https://plus.google.com/u/0/communities/117427728522929652853
 
 ###Documentation
+
+* Introduction
+  * [How different between JavaScritp API (web) and the mobile SDKs (native) ](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/How-different-between-JavaScritp-API-(web)-and-the-mobile-SDKs-(native))
+  * [Why use this plugin?](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Why-use-this-plugin%3F)
+  * [Java Objective C or JavaScript. Which one do you like?](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Java-Objective-C-or-JavaScript.-Which-one-do-you-like%3F)
+
 
 * [Installation](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Installation)
   * Automatic Installation
@@ -29,6 +32,7 @@ And check the [Release Notes](https://github.com/wf9a5m75/phonegap-googlemaps-pl
     * [PhoneGap Usage](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Phonegap-Usage)
   * Upgrade
     * [How to upgrade the Google Maps SDK for iOS to the latest version?](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/How-to-upgrade-the-Google-Maps-SDK-for-iOS-to-the-latest-version%3F)
+* [Terms of Services](./Terms-of-Services)
 * [Map](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Map)
   * ![img](https://raw.github.com/wf9a5m75/phonegap-googlemaps-plugin/Images/screencapture/animateCamera.gif) 
   * Create a map
@@ -71,11 +75,12 @@ And check the [Release Notes](https://github.com/wf9a5m75/phonegap-googlemaps-pl
 * [Polygon](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Polygon)
   * ![img](https://googledrive.com/host/0B1ECfqTCcLE8ZVQ1djlWNThISEE/polygon.png)
   * Add a polygon
+  * Click a polygon
   * callback
   * Remove the polygon
   * Polygon Class Reference
 * [Tile Overlay](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/TileOverlay)
-  * ![img](https://googledrive.com/host/0B1ECfqTCcLE8ZVQ1djlWNThISEE/tile_overlay.png)
+  * ![img](https://googledrive.com/host/0B1ECfqTCcLE8MU1CbUtNVUs3TEE/tileOverlay.gif)
   * Add a tile overlay
   * TileOverlay Class Reference
 * [Ground Overlay](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/GroundOverlay)
