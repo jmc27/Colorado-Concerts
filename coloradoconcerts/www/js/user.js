@@ -30,3 +30,8 @@ function logIn(username, password) {
 	  }
 	});
 }
+
+function logOut() {
+	Parse.User.logOut();
+	window.location.href = "index.html"
+}
