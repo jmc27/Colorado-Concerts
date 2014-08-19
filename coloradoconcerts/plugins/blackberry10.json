@@ -47,12 +47,9 @@
         },
         "org.apache.cordova.globalization": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
-<<<<<<< HEAD
-=======
         },
         "plugin.google.maps": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
->>>>>>> parse
         }
     },
     "dependent_plugins": {}

@@ -29,12 +29,9 @@ function logIn(username, password) {
 	    // The login failed. Check error to see why.
 	  }
 	});
-<<<<<<< HEAD
-=======
 }
 
 function logOut() {
 	Parse.User.logOut();
 	window.location.href = "index.html"
->>>>>>> parse
 }

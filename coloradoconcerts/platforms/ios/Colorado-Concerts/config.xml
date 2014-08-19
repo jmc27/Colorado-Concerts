@@ -31,12 +31,9 @@
     <feature name="Globalization">
         <param name="ios-package" value="CDVGlobalization" />
     </feature>
-<<<<<<< HEAD
-=======
     <feature name="GoogleMaps">
         <param name="ios-package" value="GoogleMaps" />
     </feature>
->>>>>>> parse
     <name>Colorado-Concerts</name>
     <description>
         Colorado Concerts Mobile Application

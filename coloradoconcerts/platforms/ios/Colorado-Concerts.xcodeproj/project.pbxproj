@@ -45,8 +45,6 @@
 		5D3999A171794B51AE6BCA8F /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6C60FBAEA4A89B5232B13 /* CDVJpegHeaderWriter.m */; };
 		D85D59AE45D140BCB4802D6A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C98EF9ADDE464488FACA09 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0D4937CDAFBA435D8EF2FC23 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B706905887A4225836391B9 /* CDVGlobalization.m */; };
-<<<<<<< HEAD
-=======
 		998D0CC56BF84D918C48DDE6 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7668307F19BC4C9998FF5E67 /* GoogleMaps.bundle */; };
 		383DB16A7EEB4EC8824873F0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764572B851F54E0FA9B0CBA2 /* GoogleMaps.framework */; };
 		55907A0AFF894CFBA079FAC8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933EAFE73DF94FAE841E966C /* AVFoundation.framework */; };
@@ -74,7 +72,6 @@
 		C31615FD78C4418A9055F1C3 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 823D1AEBDAEE42458D4DCC4D /* TBXML.m */; };
 		E17B6E568FD94219A690185C /* TileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB89D4F0C48450EAF85F719 /* TileOverlay.m */; };
 		5F4A3244C5D04FB3A6C3C294 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 42097A84EE694258B8959CD4 /* NSData+Base64.m */; };
->>>>>>> parse
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,8 +149,6 @@
 		82C98EF9ADDE464488FACA09 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		1B706905887A4225836391B9 /* CDVGlobalization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVGlobalization.m"; path = "org.apache.cordova.globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		DFCBF250FB354D9996B62393 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "org.apache.cordova.globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
-<<<<<<< HEAD
-=======
 		7668307F19BC4C9998FF5E67 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "GoogleMaps.bundle"; path = "GoogleMaps.bundle"; sourceTree = "<group>"; };
 		764572B851F54E0FA9B0CBA2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GoogleMaps.framework"; path = "Colorado-Concerts/Plugins/com.googlemaps.ios/GoogleMaps.framework"; sourceTree = "<group>"; };
 		933EAFE73DF94FAE841E966C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
@@ -198,7 +193,6 @@
 		197B68ED6AF84F67A69ED17F /* TileOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TileOverlay.h"; path = "plugin.google.maps/TileOverlay.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		01B88216755349BCB8D174BB /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "plugin.google.maps/NSData+Base64.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		8C878DADEBE54E9D912B8F7D /* NSData+Base64.podspec */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "NSData+Base64.podspec"; path = "plugin.google.maps/NSData+Base64.podspec"; sourceTree = "<group>"; fileEncoding = 4; };
->>>>>>> parse
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,8 +207,6 @@
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
 				B74651C3D9A74F2197D5D8CA /* CoreMotion.framework in Frameworks */,
 				D85D59AE45D140BCB4802D6A /* ImageIO.framework in Frameworks */,
-<<<<<<< HEAD
-=======
 				383DB16A7EEB4EC8824873F0 /* GoogleMaps.framework in Frameworks */,
 				55907A0AFF894CFBA079FAC8 /* AVFoundation.framework in Frameworks */,
 				B82B3FD4796845BAB89D1A8D /* CoreData.framework in Frameworks */,
@@ -226,7 +218,6 @@
 				8EE66A40F34F4D3B84EDEC06 /* OpenGLES.framework in Frameworks */,
 				13C64F9752D24D26B0DC799E /* QuartzCore.framework in Frameworks */,
 				A088EE9C7AD34EBE9CE7479D /* SystemConfiguration.framework in Frameworks */,
->>>>>>> parse
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +314,6 @@
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				E6BAFE1426844792B198DB23 /* CoreMotion.framework */,
 				82C98EF9ADDE464488FACA09 /* ImageIO.framework */,
-<<<<<<< HEAD
-=======
 				764572B851F54E0FA9B0CBA2 /* GoogleMaps.framework */,
 				933EAFE73DF94FAE841E966C /* AVFoundation.framework */,
 				E8795A281ABF484F8B193FC4 /* CoreData.framework */,
@@ -336,7 +325,6 @@
 				4D235663F46F4134A77FF46B /* OpenGLES.framework */,
 				8D860891B72647159DB1BA4D /* QuartzCore.framework */,
 				0DD1B03B044F4235ABB886BD /* SystemConfiguration.framework */,
->>>>>>> parse
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -363,8 +351,6 @@
 				78BA361D31B740B7BE586FE9 /* CDVExif.h */,
 				1B706905887A4225836391B9 /* CDVGlobalization.m */,
 				DFCBF250FB354D9996B62393 /* CDVGlobalization.h */,
-<<<<<<< HEAD
-=======
 				5FFEFDC782024ED6BBE1EA8F /* Circle.m */,
 				BDBC920040E045B790E0EFFC /* External.m */,
 				CA108F3F8D2E43259EA0C1E3 /* Geocoder.m */,
@@ -397,7 +383,6 @@
 				197B68ED6AF84F67A69ED17F /* TileOverlay.h */,
 				01B88216755349BCB8D174BB /* NSData+Base64.h */,
 				8C878DADEBE54E9D912B8F7D /* NSData+Base64.podspec */,
->>>>>>> parse
 			);
 			name = Plugins;
 			path = "Colorado-Concerts/Plugins";
@@ -598,8 +583,6 @@
 				5BD09A9E64FB4E76BA0C6ACC /* CDVCamera.m in Sources */,
 				5D3999A171794B51AE6BCA8F /* CDVJpegHeaderWriter.m in Sources */,
 				0D4937CDAFBA435D8EF2FC23 /* CDVGlobalization.m in Sources */,
-<<<<<<< HEAD
-=======
 				982DBFBC217847D3B3A3B72A /* Circle.m in Sources */,
 				101AD14720BB48C4A5D1A6E6 /* External.m in Sources */,
 				2774F7DE4413432A8238C798 /* Geocoder.m in Sources */,
@@ -615,7 +598,6 @@
 				C31615FD78C4418A9055F1C3 /* TBXML.m in Sources */,
 				E17B6E568FD94219A690185C /* TileOverlay.m in Sources */,
 				5F4A3244C5D04FB3A6C3C294 /* NSData+Base64.m in Sources */,
->>>>>>> parse
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -83,8 +83,6 @@ module.exports = [
         "clobbers": [
             "navigator.globalization"
         ]
-<<<<<<< HEAD
-=======
     },
     {
         "file": "plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js",
@@ -92,7 +90,6 @@ module.exports = [
         "clobbers": [
             "plugin.google.maps"
         ]
->>>>>>> parse
     }
 ];
 module.exports.metadata = 
@@ -101,13 +98,9 @@ module.exports.metadata =
     "org.apache.cordova.geolocation": "0.3.9-dev",
     "org.apache.cordova.device-motion": "0.2.9-dev",
     "org.apache.cordova.camera": "0.3.1-dev",
-<<<<<<< HEAD
-    "org.apache.cordova.globalization": "0.2.9-dev"
-=======
     "org.apache.cordova.globalization": "0.2.9-dev",
     "plugin.google.maps": "1.1.4",
     "com.googlemaps.ios": "1.8.1"
->>>>>>> parse
 }
 // BOTTOM OF METADATA
 });

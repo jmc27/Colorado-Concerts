@@ -5,7 +5,7 @@
     ],
     "version": "0.0.1",
     "name": "Colorado-Concerts",
-    "pkgName": "io.cordova.hellocordova",
+    "pkgName": "io.cordova.colorado-concerts",
     "description": "Colorado Concerts Mobile Application",
     "developer": {
         "name": "Jonathan Chu"

@@ -19,11 +19,19 @@ function signUp(username, email, password) {
 	    });
 }
 
-function logIn(email, password {
-	success: function(user) {
-		window.location.href = "menu.html"
-	}
-	error: function(user, error) {
+function logIn(username, password) {
+	Parse.User.logIn(username, password, {
+	  success: function(user) {
+	    // Do stuff after successful login.
+	    window.location.href = "menu.html"
+	  },
+	  error: function(user, error) {
+	    // The login failed. Check error to see why.
+	  }
+	});
+}
 
-	}
-});
+function logOut() {
+	Parse.User.logOut();
+	window.location.href = "index.html"
+}

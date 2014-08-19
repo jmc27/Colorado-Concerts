@@ -21,11 +21,7 @@
     <body>
         <div data-role = "page">
             <div data-role = "header">
-<<<<<<< HEAD
-                <img src = "logo.png" />
-=======
                 <img src = "img/logo.png" alt = "logo" class = "logo">
->>>>>>> parse
             </div>
             <div data-role = "content">
                 <div id = "signup" style = "display:none">
@@ -39,11 +35,7 @@
                 </div>
                 <div id = "login">
                     <form>
-<<<<<<< HEAD
-                        <input type="email" class = "logininput" id="loginemail" placeholder="Email" />
-=======
                         <input type="text" class = "logininput" id="loginusername" placeholder="Username" />
->>>>>>> parse
                         <input type="password" class = "logininput" id="loginpassword" placeholder="Create a Password" />
                         <a href="#" onclick="return show('signup','login');">Sign Up</a>
                         <button onclick="logIn(document.getElementById('loginusername').value, document.getElementById('loginpassword').value);">Log In</button>
@@ -55,30 +47,5 @@
 
         <script type="text/javascript" src="js/index.js"></script>
 
-<<<<<<< HEAD
-        <script type="text/javascript">
-            var Event = Parse.Object.extend("Event", {}, {
-                create: function(title, address, category, date){
-                    var event = new Event();
-                    event.set("title", title);
-                    event.set("address", address);
-                    event.set("category", category);
-                    event.set("date", date);
-                    return event;
-                }
-            });
-
-            var event = Event.create("Bonaroo", "Tenesee", "PLM", new Date(2014, 2, 13, 12, 30));
-              event.save(null, {
-              success: function(object) {
-                $(".success").html("Event successfully saved");
-              },
-              error: function(model, error) {
-                $(".error").html("Error saving event.");
-              }
-            });
-          </script>
-=======
->>>>>>> parse
     </body>
 </html>

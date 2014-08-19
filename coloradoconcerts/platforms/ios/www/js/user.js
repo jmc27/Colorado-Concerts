@@ -19,16 +19,6 @@ function signUp(username, email, password) {
 	    });
 }
 
-<<<<<<< HEAD
-function logIn(email, password {
-	success: function(user) {
-		window.location.href = "menu.html"
-	}
-	error: function(user, error) {
-
-	}
-});
-=======
 function logIn(username, password) {
 	Parse.User.logIn(username, password, {
 	  success: function(user) {
@@ -40,4 +30,8 @@ function logIn(username, password) {
 	  }
 	});
 }
->>>>>>> parse
+
+function logOut() {
+	Parse.User.logOut();
+	window.location.href = "index.html"
+}
