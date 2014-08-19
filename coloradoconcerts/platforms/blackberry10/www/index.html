@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+        <script type = "text/javascript">
+            Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
+        </script>
+        <script type="text/javascript" src="js/user.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Colorado-Concerts</title>
+    </head>
+    <body>
+        <div data-role = "page">
+            <div data-role = "header">
+                <img src = "logo.png" />
+            </div>
+            <div data-role = "content">
+                <div id = "signup" style = "display:none">
+                    <form>
+                        <input type="email" class = "logininput" id="signupemail" placeholder="Email" />
+                        <input type="text" class = "logininput" id="signupusername" placeholder="Username" />
+                        <input type="password" class = "logininput" id="signuppassword" placeholder="Create a Password" />
+                        <a href="#" onclick="return show('login', 'signup');">Log In</a>
+                        <button onclick="signUp(document.getElementById('signupusername').value, document.getElementById('signupemail').value, document.getElementById('signuppassword').value);">Sign Up</button>
+                    </form>
+                </div>
+                <div id = "login">
+                    <form>
+                        <input type="email" class = "logininput" id="loginemail" placeholder="Email" />
+                        <input type="password" class = "logininput" id="loginpassword" placeholder="Create a Password" />
+                        <a href="#" onclick="return show('signup','login');">Sign Up</a>
+                        <button onclick="logIn(document.getElementById('loginusername').value, document.getElementById('loginpassword').value);">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script type="text/javascript">
+            var Event = Parse.Object.extend("Event", {}, {
+                create: function(title, address, category, date){
+                    var event = new Event();
+                    event.set("title", title);
+                    event.set("address", address);
+                    event.set("category", category);
+                    event.set("date", date);
+                    return event;
+                }
+            });
+
+            var event = Event.create("Bonaroo", "Tenesee", "PLM", new Date(2014, 2, 13, 12, 30));
+              event.save(null, {
+              success: function(object) {
+                $(".success").html("Event successfully saved");
+              },
+              error: function(model, error) {
+                $(".error").html("Error saving event.");
+              }
+            });
+          </script>
+    </body>
+</html>

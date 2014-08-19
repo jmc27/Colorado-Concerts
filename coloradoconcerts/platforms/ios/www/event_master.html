@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+        <script type = "text/javascript">
+            Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
+        </script>
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Event Master</title>
+    </head>
+    <body>
+        <div data-role = "page">
+            <div data-role = "header">
+                <h1>Create Event</h1>
+            </div>
+            <div data-role = "content">
+                <input type = "text" class = "eventinput" id = "eventtitle" placeholder = "Title"/>
+                <input type = "text" class = "eventinput" id = "eventlocation" placeholder = "Address"/>
+                <input type = "text" class = "eventinput" id = "eventdate" placeholder = "Date: ex. October 13, 2014, 11:13:00"/>
+                <input type = "text" class "eventinput" id = "eventcategory" placeholder = "Category"/>
+                <button onclick = "makeEvent(document.getElementById('eventtitle').value, document.getElementById('eventlocation').value, document.getElementById('eventdate').value, document.getElementById('eventcategory').value);">Make Event</button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/event.js"></script>
+    </body>
+</html>

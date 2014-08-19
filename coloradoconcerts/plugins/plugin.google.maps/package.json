@@ -1,0 +1,18 @@
+{
+    "version": "1.1.4",
+    "name": "plugin.google.maps",
+    "cordova_name": "phonegap-googlemaps-plugin",
+    "description": "Google Maps native SDK for Android and iOS",
+    "license": "Apache 2.0",
+    "keywords": [
+        "google",
+        "maps",
+        "geo"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}

@@ -19,6 +19,7 @@ function signUp(username, email, password) {
 	    });
 }
 
+<<<<<<< HEAD
 function logIn(email, password {
 	success: function(user) {
 		window.location.href = "menu.html"
@@ -27,3 +28,16 @@ function logIn(email, password {
 
 	}
 });
+=======
+function logIn(username, password) {
+	Parse.User.logIn(username, password, {
+	  success: function(user) {
+	    // Do stuff after successful login.
+	    window.location.href = "menu.html"
+	  },
+	  error: function(user, error) {
+	    // The login failed. Check error to see why.
+	  }
+	});
+}
+>>>>>>> parse

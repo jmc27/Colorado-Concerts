@@ -1,5 +1,9 @@
 #Last build type
+<<<<<<< HEAD
 #Fri, 18 Jul 2014 11:35:32 -0400
+=======
+#Wed, 23 Jul 2014 12:39:19 -0400
+>>>>>>> parse
 
 build.last.target=debug
 

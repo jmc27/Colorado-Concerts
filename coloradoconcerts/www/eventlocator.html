@@ -4,7 +4,11 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<<<<<<< HEAD
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+=======
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+>>>>>>> parse
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
@@ -13,12 +17,34 @@
         <script type = "text/javascript">
             Parse.initialize("5zTdZ8lYjl6qlFvbLO3FHI7umv5c7Kt6He5vnT6U", "rtouSjDGASawt8YxxHrfHKdfB3FXL2JiMfKCgVjA");
         </script>
+<<<<<<< HEAD
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBUYexltA78O_jjQUKY-VNbFRZBoGEv7EU&sensor=false"></script>
+=======
+        <script type="text/javascript">
+            var map;
+            document.addEventListener("deviceready", function() {
+              var button = document.getElementById("button");
+              button.addEventListener("click", onBtnClicked, false);
+
+              var div = document.getElementById("map_canvas");
+              map = plugin.google.maps.Map.getMap(div);
+            }, false);
+            function onBtnClicked() {
+              map.showDialog();
+            }
+        </script>
+>>>>>>> parse
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Colorado-Concerts Event Locator</title>
     </head>
     <body>
+<<<<<<< HEAD
     
+=======
+        <h3>PhoneGap-GoogleMaps-Plugin</h3>
+        <div style="width:100%;height:400px" id="map_canvas"></div>
+        <button id="button">Full Screen</button>
+>>>>>>> parse
     </body>
 </html>
