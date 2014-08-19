@@ -1,4 +1,4 @@
-/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/ant-gen/io/cordova/hellocordova/R.java \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/ant-gen/io/cordova/colorado_concerts/R.java \
  : /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/drawable/icon.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/drawable-hdpi/icon.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/res/drawable-land-hdpi/screen.png \

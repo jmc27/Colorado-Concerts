@@ -10,6 +10,7 @@ bar-descriptor.xml
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/cordova.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/cordova_plugins.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/default-icon.png
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/event_master.html
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/eventlocator.html
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/index.html
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/login.html
@@ -24,6 +25,7 @@ bar-descriptor.xml
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/css/app.css
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/css/index.css
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/img/logo.png
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/js/event.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/js/index.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/js/user.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/plugins/jnext/auth.txt
@@ -40,3 +42,4 @@ bar-descriptor.xml
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/plugins/org.apache.cordova.geolocation/www/blackberry10/GeolocationProxy.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/plugins/org.apache.cordova.globalization/www/GlobalizationError.js
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/plugins/org.apache.cordova.globalization/www/globalization.js
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/blackberry10/build/src/plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js

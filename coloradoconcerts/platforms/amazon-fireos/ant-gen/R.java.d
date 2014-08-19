@@ -1,4 +1,4 @@
-/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-gen/io/cordova/hellocordova/R.java \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-gen/io/cordova/colorado_concerts/R.java \
  : /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/res/drawable/icon.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/res/drawable-hdpi/icon.png \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/res/drawable-land-hdpi/screen.png \

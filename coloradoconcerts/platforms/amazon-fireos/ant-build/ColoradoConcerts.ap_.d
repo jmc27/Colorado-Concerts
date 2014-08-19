@@ -31,6 +31,7 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/cordova.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/cordova_plugins.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/css \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/event_master.html \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/eventlocator.html \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/img \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/index.html \
@@ -41,12 +42,14 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/css/app.css \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/css/index.css \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/img/logo.png \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/js/event.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/js/index.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/js/user.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.camera \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.device-motion \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.geolocation \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.globalization \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/plugin.google.maps \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.camera/www \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
@@ -63,4 +66,6 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.globalization/www \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.globalization/www/globalization.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/org.apache.cordova.globalization/www/GlobalizationError.js \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/plugin.google.maps/www \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/assets/www/plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/AndroidManifest.xml \

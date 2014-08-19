@@ -1,5 +1,5 @@
 # view AndroidManifest.xml #generated:6
--keep class io.cordova.hellocordova.ColoradoConcerts { <init>(...); }
+-keep class io.cordova.colorado_concerts.ColoradoConcerts { <init>(...); }
 
 # view AndroidManifest.xml #generated:13
 -keep class org.chromium.content.app.SandboxedProcessService0 { <init>(...); }

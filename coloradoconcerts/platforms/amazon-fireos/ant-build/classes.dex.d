@@ -1,4 +1,11 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes.dex : \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/BuildConfig.class \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/ColoradoConcerts.class \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/R$attr.class \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/R$drawable.class \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/R$string.class \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/R$xml.class \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/colorado_concerts/R.class \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/hellocordova/BuildConfig.class \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/hellocordova/ColoradoConcerts.class \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/amazon-fireos/ant-build/classes/io/cordova/hellocordova/R$attr.class \

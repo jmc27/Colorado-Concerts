@@ -33,6 +33,7 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/cordova.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/cordova_plugins.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/css \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/event_master.html \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/eventlocator.html \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/img \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/index.html \
@@ -43,15 +44,13 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/css/app.css \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/css/index.css \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/img/logo.png \
+/Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/js/event.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/js/index.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/js/user.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.device-motion \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.globalization \
-<<<<<<< HEAD
-=======
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/plugin.google.maps \
->>>>>>> parse
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
@@ -63,9 +62,6 @@
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/globalization.js \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/org.apache.cordova.globalization/www/GlobalizationError.js \
-<<<<<<< HEAD
-=======
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/plugin.google.maps/www \
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/assets/www/plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js \
->>>>>>> parse
 /Users/jonchu/Desktop/Colorado-Concerts/coloradoconcerts/platforms/android/ant-build/AndroidManifest.xml \
